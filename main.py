@@ -21,7 +21,8 @@ def init_len_n(n):
 
     return seq
 
-print("Input how far you would like to graph the sequence (author of which appears in the Amazing Graphs - Numberphile YouTube video)")
+print("Input how far you would like to graph the sequence.", end=" ")
+print("It should be noted that the author of the sequence is in the YouTube video titled Amazing Graphs - Numberphile")
 
 n = int(input())
 x = list(range(1, n + 1))
