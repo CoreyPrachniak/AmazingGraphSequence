@@ -2,9 +2,6 @@ import matplotlib.pyplot as plt
 
 
 def calculate_gcd(x, y):
-    if x > y:
-        calculate_gcd(y, x)
-
     for i in range(1, x + 1)[::-1]:
         if x % i == y % i == 0:
             return i
